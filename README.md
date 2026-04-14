@@ -1,21 +1,21 @@
-# webprobe — Black-Box Web Security Recon for Bug Bounty
+# webprobe  - Black-Box Web Security Recon for Bug Bounty
 
-A web security analysis toolkit built for AI-driven bug bounty workflows. Intercept, crawl, analyze, and replay HTTP traffic — all output is JSON for piping into AI agents or automation scripts.
+A web security analysis toolkit built for AI-driven bug bounty workflows. Intercept, crawl, analyze, and replay HTTP traffic  - all output is JSON for piping into AI agents or automation scripts.
 
 Identifies SSRF, XXE, OIDC misconfigurations, cloud metadata exposure, JavaScript vulnerabilities, and common web security issues through passive traffic analysis and active probing.
 
 ## Features
 
-- **Intercepting proxy** — Capture all HTTP/S traffic via mitmdump, stored in SQLite for analysis
-- **Crawler** — Spider targets to discover endpoints, forms, and API routes
-- **Passive analysis** — Scan captured traffic for security headers, CSP issues, CORS misconfigs, sensitive data exposure, technology fingerprinting
-- **SSRF/XXE detection** — Test for server-side request forgery and XML external entity injection
-- **Cloud metadata** — Detect exposed cloud provider metadata endpoints (AWS, GCP, Azure)
-- **OIDC testing** — Probe OpenID Connect configurations for misconfigurations
-- **JavaScript analysis** — Extract secrets, API keys, endpoints, and interesting patterns from JS files
-- **CDN analysis** — Identify CDN providers and potential origin IP leaks
-- **Request replay** — Replay captured requests with modifications for manual testing
-- **Payload library** — Built-in payload classes for SSRF, XSS, SQLi, path traversal, and more
+- **Intercepting proxy**  - Capture all HTTP/S traffic via mitmdump, stored in SQLite for analysis
+- **Crawler**  - Spider targets to discover endpoints, forms, and API routes
+- **Passive analysis**  - Scan captured traffic for security headers, CSP issues, CORS misconfigs, sensitive data exposure, technology fingerprinting
+- **SSRF/XXE detection**  - Test for server-side request forgery and XML external entity injection
+- **Cloud metadata**  - Detect exposed cloud provider metadata endpoints (AWS, GCP, Azure)
+- **OIDC testing**  - Probe OpenID Connect configurations for misconfigurations
+- **JavaScript analysis**  - Extract secrets, API keys, endpoints, and interesting patterns from JS files
+- **CDN analysis**  - Identify CDN providers and potential origin IP leaks
+- **Request replay**  - Replay captured requests with modifications for manual testing
+- **Payload library**  - Built-in payload classes for SSRF, XSS, SQLi, path traversal, and more
 
 ## Install
 
